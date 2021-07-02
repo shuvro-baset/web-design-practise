@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>module-2 : css</title>
+</head>
+<style>
+    h1 {
+        text-align: center;
+        color:  #0575e6;
+        text-decoration: underline;
+    }
+    p{
+        height: 200px;
+        width: 200px;
+        background-color: #021B79;
+        font-size: 20px;
+        font-style: oblique;
+        color: white; 
+        text-align: justify;  
+    } 
+    .border-box{
+        height: 80px;
+        width: 80px;
+        background-color: yellow;
+        float: left;
+        margin-left: 5px;
+        text-align: center; 
+    }
+    .border-css{
+        width: 100%;
+        display: block;
+        overflow: hidden;
+    }
+    .margin-box{
+        height: 150px;
+        width: 200px; 
+        background-color: rgb(69, 8, 235); 
+    }
+
+</style>
+<body>
+    <h1>Here is my module-2 : css practice</h1>
+
+    <div class="class1">
+        <p>I am box. height is: 200px, width is : 200px. background-color: #021B79;
+            text color is white. font size is 20px; font-style oblique.</p>
+    </div>
+ 
+    <div class="border-css">
+    <h6 style="border: 5px solid" class="border-box">solid border</h6>  
+    <h6 style="border: 5px dashed" class="border-box">dashed border</h6> 
+    <h6 style="border: 5px dotted" class="border-box">dotted border</h6> 
+    <h6 style="border: 5px double" class="border-box">double border</h6> 
+    <h6 style="border: 5px groove" class="border-box">groove border</h6> 
+    <h6 style="border: 5px ridge" class="border-box">ridge border</h6> 
+    <h6 style="border: 5px inset" class="border-box">inset border</h6> 
+    <h6 style="border: 5px outset" class="border-box">outset borde</h6>
+    <h6 style="border: 5px none" class="border-box">none border</h6> 
+    <h6 style="border: 5px hidden" class="border-box">hidden border</h6> 
+    <h6 style="border: 2px solid red; border-radius: 5px" class="border-box">rounder border</h6>
+    <h6 style="border-style: solid dashed double groove" class="border-box">mix border</h6>
+    </div>
+ 
+  
+    <div class="margin-box"><h5>I am margin box</h5> </div>
+</body>
+</html>
