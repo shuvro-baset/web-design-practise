@@ -38,6 +38,32 @@
         height: 150px;
         width: 200px; 
         background-color: rgb(69, 8, 235); 
+        position: relative;
+        margin: 0 auto;
+
+    }
+    .margin-test{
+        background-color: cyan;
+        position: absolute;
+        margin: 50px 20px 20px 50px; 
+
+    }
+    
+    .padding-box{
+        height: 150px;
+        width: 200px; 
+        background-color: rgb(8, 235, 46);  
+        position: relative;
+        margin: 0 auto;
+
+    }
+    .padding-test{
+        margin-left: 25px;
+        text-align: center;
+        background-color: rgb(217, 255, 0);
+        position: absolute;
+        padding: 20px; 
+
     }
 
 </style>
@@ -50,21 +76,26 @@
     </div>
  
     <div class="border-css">
-    <h6 style="border: 5px solid" class="border-box">solid border</h6>  
-    <h6 style="border: 5px dashed" class="border-box">dashed border</h6> 
-    <h6 style="border: 5px dotted" class="border-box">dotted border</h6> 
-    <h6 style="border: 5px double" class="border-box">double border</h6> 
-    <h6 style="border: 5px groove" class="border-box">groove border</h6> 
-    <h6 style="border: 5px ridge" class="border-box">ridge border</h6> 
-    <h6 style="border: 5px inset" class="border-box">inset border</h6> 
-    <h6 style="border: 5px outset" class="border-box">outset borde</h6>
-    <h6 style="border: 5px none" class="border-box">none border</h6> 
-    <h6 style="border: 5px hidden" class="border-box">hidden border</h6> 
-    <h6 style="border: 2px solid red; border-radius: 5px" class="border-box">rounder border</h6>
-    <h6 style="border-style: solid dashed double groove" class="border-box">mix border</h6>
+        <h6 style="border: 5px solid" class="border-box">solid border</h6>  
+        <h6 style="border: 5px dashed" class="border-box">dashed border</h6> 
+        <h6 style="border: 5px dotted" class="border-box">dotted border</h6> 
+        <h6 style="border: 5px double" class="border-box">double border</h6> 
+        <h6 style="border: 5px groove" class="border-box">groove border</h6> 
+        <h6 style="border: 5px ridge" class="border-box">ridge border</h6> 
+        <h6 style="border: 5px inset" class="border-box">inset border</h6> 
+        <h6 style="border: 5px outset" class="border-box">outset border</h6>
+        <h6 style="border: 5px none" class="border-box">none border</h6> 
+        <h6 style="border: 5px hidden" class="border-box">hidden border</h6> 
+        <h6 style="border: 2px solid red; border-radius: 5px" class="border-box">rounder border</h6>
+        <h6 style="border-style: solid dashed double groove" class="border-box">mix border</h6>
     </div>
  
   
-    <div class="margin-box"><h5>I am margin box</h5> </div>
+    <div class="margin-box">
+        <h5 class="margin-test">I am margin box </h5>
+     </div>
+     <div class="padding-box">
+        <h5 class="padding-test">I am padding box </h5>
+     </div>
 </body>
 </html>
