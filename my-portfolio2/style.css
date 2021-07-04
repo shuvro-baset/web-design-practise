@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Bona Nova", serif;
+}
+section {
+  height: 440px;
+  overflow: hidden;
+}
+.banner-half {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.banner-half img {
+  margin-top: 50px;
+  width: 80%;
+}
+.banner-half h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.banner-half p {
+  color: rgb(20, 1, 73);
+  font-weight: 500;
+}
+span {
+  color: rgb(57, 3, 207);
+}
+h3 {
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
+}
+.skill-section {
+  height: 300px;
+}
+.my-skills {
+  background-color: #6a62fa;
+  color: white;
+  width: 10%;
+  height: 120px;
+  float: left;
+  margin-left: 75px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(3, 1, 37);
+  border-radius: 10px;
+  box-shadow: 5px 7px 7px 5px rgb(161, 154, 154);
+}
+.my-skills H4 {
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.my-skills:hover {
+  background-color: rgb(3, 1, 37);
+  border-color: #6a62fa;
+}
+.experience-section {
+  height: 400px;
+  padding: 50px;
+}
+.front-end {
+  width: 45%;
+  float: left;
+  text-align: center;
+  margin-left: 30px;
+  border: 8px solid;
+  border-image: linear-gradient(45deg, rgb(12, 161, 247), rgb(26, 2, 71)) 1;
+  border-radius: 0.8rem;
+}
+.backend {
+  width: 45%;
+  float: left;
+  text-align: center;
+  border: 8px solid;
+  border-image: linear-gradient(45deg, rgb(12, 161, 247), rgb(26, 2, 71)) 1;
+  margin-left: 30px;
+}
+.front-end p,
+.backend p {
+  text-align: justify;
+  padding: 10px 15px;
+}
+
+.front-end h4,
+.backend h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.foot {
+  height: 120px;
+  margin: auto;
+  width: 100%;
+}
+.facebook {
+  margin-left: 560px;
+  float: left;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.linkedin {
+  float: left;
+  text-align: center;
+  border-radius: 50%;
+}
