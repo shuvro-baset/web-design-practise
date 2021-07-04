@@ -5,5 +5,53 @@ body {
 }
 
 .header {
-  background-color: #1877f2;
+  background-color: #70aff7;
+  padding: 8px 0;
+}
+.header::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.container {
+  width: 65%;
+  margin: auto;
+}
+.logo-area {
+  width: 30%;
+  float: left;
+}
+.login-area {
+  width: 70%;
+  float: left;
+  color: white;
+}
+.login-area form {
+  float: right;
+}
+.login-area label,
+.login-area input {
+  display: block;
+}
+.login-area .email,
+.login-area .password,
+.login-area .login {
+  float: left;
+  margin-right: 10px;
+}
+.login-area a {
+  text-decoration: none;
+  font-size: 14px;
+}
+.login-area a:hover {
+  color: black;
+}
+.login-area input[type="submit"] {
+  background-color: #70aff7;
+  color: white;
+  border: 1px solid #499bfa;
+  padding: 2px 3px;
+  margin-top: 19px;
+  font-size: 12px;
+  font-weight: 400;
 }
