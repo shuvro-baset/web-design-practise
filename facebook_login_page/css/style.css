@@ -4,6 +4,8 @@ body {
   font-family: "Bona Nova", serif;
 }
 
+/* header part css start  */
+
 .header {
   background-color: #70aff7;
   padding: 8px 0;
@@ -14,7 +16,7 @@ body {
   display: block;
 }
 .container {
-  width: 65%;
+  width: 75%;
   margin: auto;
   max-width: 860px;
 }
@@ -56,3 +58,44 @@ body {
   font-size: 12px;
   font-weight: 400;
 }
+/* header part css end  */
+
+/* sign up part css start  */
+.left-area {
+  width: 55%;
+  float: left;
+}
+.right-area {
+  width: 45%;
+  float: left;
+}
+.left-area p {
+  font-size: 28px;
+  font-weight: 400;
+  width: 90%;
+}
+.left-area img {
+  width: 100%;
+}
+.right-area input[type="text"],
+.right-area input[type="password"] {
+  width: 100%;
+  border-sizing: border-box;
+  border: 1px solid #bdc7d8;
+  border-radius: 5px;
+  padding: 3px 0;
+  margin: 5px 0;
+}
+.full-name {
+  overflow: hidden;
+}
+.first-name {
+  width: 46%;
+  float: left;
+  margin-right: 7%;
+}
+.surname {
+  width: 46%;
+  float: left;
+}
+/* sign up part css end  */
