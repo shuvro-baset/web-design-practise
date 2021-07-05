@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  background: -webkit-linear-gradient(left, #a445b2, #fa4299);
+}
+.wrapper {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wrapper .card {
+  width: calc(33% - 20px);
+  background: #fff;
+  height: 300px;
+}
