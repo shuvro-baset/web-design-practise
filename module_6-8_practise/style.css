@@ -84,14 +84,24 @@ body {
   width: 100%;
   height: 500px;
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
-
+.calender-section {
+  width: 100%;
+  display: flex;
+}
+.calender-month {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .calender-1,
 .calender-2 {
-  width: 45%;
+  width: 80%;
   height: 350px;
   padding: 10px 20px;
   border: 1px solid white;
