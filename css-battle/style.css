@@ -7,7 +7,7 @@ h3 {
 .container {
   height: 300px;
   width: 400px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 .carrom-container {
   padding: 50px;
@@ -131,4 +131,71 @@ h3 {
   background: #f3ac3c;
   border-radius: 100px 0 100px 0;
   box-shadow: -50px 0 #998235, -100px 0 #1a4341;
+}
+
+/* tesserect */
+.tesseract {
+  background: #222730;
+}
+.rectangle {
+  position: absolute;
+  width: 400px;
+  height: 150px;
+  transform: translateY(50%);
+  background: #4caab3;
+}
+.square {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  transform: translate(82%, 50%) rotate(45deg);
+  background: #4caab3;
+  box-shadow: 0 0 0 50px #222730;
+}
+.square:after {
+  display: block;
+  position: absolute;
+  content: "";
+  height: 50px;
+  width: 50px;
+  transform: translate(100%, 100%);
+  background: #393e46;
+  border-radius: 50%;
+}
+/* web maker logo */
+.web-maker {
+  background: #f2f2b6;
+}
+.web-maker-box {
+  width: 0;
+  height: 0;
+  position: absolute;
+  margin: 25px auto;
+  border-style: solid;
+}
+.web-maker-box:nth-of-type(1) {
+  left: 50%;
+  transform: translate(-140px, 50%);
+  border-width: 130px 75px 0 75px;
+  border-color: #ff6d00 transparent transparent;
+  z-index: 5;
+}
+.web-maker-box:nth-of-type(2) {
+  left: 50%;
+  transform: translate(-120px, 50%);
+  border-width: 130px 75px 0 75px;
+  border-color: #fd4602 transparent transparent;
+}
+.web-maker-box:nth-of-type(3) {
+  right: 50%;
+  transform: translate(120px, 50%);
+  border-width: 0 75px 130px 75px;
+  border-color: transparent transparent #fd4602;
+  z-index: 5;
+}
+.web-maker-box:nth-of-type(4) {
+  right: 50%;
+  transform: translate(140px, 50%);
+  border-width: 0 75px 130px 75px;
+  border-color: transparent transparent #ff6d00;
 }
