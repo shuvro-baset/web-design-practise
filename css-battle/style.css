@@ -91,3 +91,44 @@ h3 {
   border-radius: 60px 0 60px 60px;
 }
 /* missing slices */
+.missing-slice {
+  background: #e3516e;
+}
+#missing-box-id {
+  display: inline-block;
+  padding: 55px 92px;
+}
+.missing-box1 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background: #51b5a9;
+  border-radius: 100px 0 0;
+}
+.missing-box2 {
+  margin-left: 100px;
+  height: 100px;
+  width: 100px;
+  background: #fade8b;
+  border-radius: 0px 100px 0 0;
+}
+.missing-box3 {
+  height: 100px;
+  width: 100px;
+  background: #f7f3d7;
+  border-radius: 0 0 0 100px;
+}
+
+/*leafy trail*/
+.leafy-trail {
+  background: #0b2429;
+}
+.leafy-box {
+  position: absolute;
+  margin: 75px 0 0 167px;
+  height: 150px;
+  width: 150px;
+  background: #f3ac3c;
+  border-radius: 100px 0 100px 0;
+  box-shadow: -50px 0 #998235, -100px 0 #1a4341;
+}
